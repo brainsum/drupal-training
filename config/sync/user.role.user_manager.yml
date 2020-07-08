@@ -9,8 +9,11 @@ is_admin: null
 permissions:
   - 'access user profiles'
   - 'administer users'
+  - 'create content translations'
+  - 'delete content translations'
   - 'translate any entity'
   - 'translate interface'
   - 'translate news node'
   - 'translate page node'
   - 'translate publication node'
+  - 'update content translations'
