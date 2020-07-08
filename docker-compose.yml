@@ -1,26 +1,26 @@
-version: "3"
+version: "3.8"
 
 services:
   mariadb:
     image: wodby/mariadb:10.4-3.8.5
     stop_grace_period: 30s
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: drupal
-      MYSQL_USER: drupal
-      MYSQL_PASSWORD: drupal
+      MYSQL_ROOT_PASSWORD: "${DATABASE_ROOT_PASSWORD}"
+      MYSQL_DATABASE: "${DRUPAL_DATABASE_NAME}"
+      MYSQL_USER: "${DRUPAL_DATABASE_USERNAME}"
+      MYSQL_PASSWORD: "${DRUPAL_DATABASE_PASSWORD}"
 
   php:
     image: wodby/drupal-php:7.3-dev-4.17.0
     environment:
       PHP_SENDMAIL_PATH: /usr/sbin/sendmail -t -i -S mailhog:1025
       PHP_FPM_CLEAR_ENV: "no"
-      DRUPAL_DATABASE_HOST: mariadb
-      DRUPAL_DATABASE_PORT: 3306
-      DRUPAL_DATABASE_USERNAME: drupal
-      DRUPAL_DATABASE_PASSWORD: drupal
-      DRUPAL_DATABASE_NAME: drupal
-      DRUPAL_HASH_SALT: "nEetLtc21k6N_zHnKtBeUYscOuFDrs7o00jzOFibt0RhQmgqpQkG9mxJG8oOyDmW7ZZ0V55W2g"
+      DRUPAL_DATABASE_HOST: "${DRUPAL_DATABASE_HOST}"
+      DRUPAL_DATABASE_PORT: "${DRUPAL_DATABASE_PORT}"
+      DRUPAL_DATABASE_USERNAME: "${DRUPAL_DATABASE_USERNAME}"
+      DRUPAL_DATABASE_PASSWORD: "${DRUPAL_DATABASE_PASSWORD}"
+      DRUPAL_DATABASE_NAME: "${DRUPAL_DATABASE_NAME}"
+      DRUPAL_HASH_SALT: "${DRUPAL_HASH_SALT}"
       WODBY_ENVIRONMENT_NAME: "${PROJECT_NAME}-local"
       DRUSH_BASE_URI: "${PROJECT_BASE_URL}:8000"
     ## Read instructions at https://wodby.com/stacks/drupal/docs/local/xdebug/

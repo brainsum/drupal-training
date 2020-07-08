@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
-docker-compose up -d --force-recreate --remove-orphans || exit 1
-docker-compose ps || exit 1
-docker-compose exec --user 1000 php sh || exit 1
+COMPOSE_FILES="-f docker-compose.yml"
+
+if [[ -f "docker-compose.local.yml" ]]; then
+  COMPOSE_FILES="${COMPOSE_FILES} -f docker-compose.local.yml"
+fi
+
+echo "Using compose files: ${COMPOSE_FILES}"
+
+docker-compose ${COMPOSE_FILES} up -d --force-recreate || exit 1
+docker-compose ${COMPOSE_FILES} ps || exit 1
+docker-compose ${COMPOSE_FILES} exec --user 1000 php bash || exit 1
