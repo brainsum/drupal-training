@@ -5,10 +5,13 @@ dependencies:
   config:
     - field.field.node.publication.body
     - field.field.node.publication.field_file
+    - field.field.node.publication.field_image
     - field.field.node.publication.field_isbn_number
+    - image.style.thumbnail
     - node.type.publication
   module:
     - file
+    - image
     - path
     - text
 id: node.publication.default
@@ -38,6 +41,14 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_isbn_number:
     weight: 9
