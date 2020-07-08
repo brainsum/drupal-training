@@ -31,3 +31,4 @@ content:
 hidden:
   addtoany: true
   field_tags: true
+  langcode: true

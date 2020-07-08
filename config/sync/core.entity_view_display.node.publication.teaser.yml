@@ -35,3 +35,4 @@ hidden:
   field_file: true
   field_image: true
   field_isbn_number: true
+  langcode: true
