@@ -19,7 +19,6 @@ permissions:
   - 'add terms in supporters'
   - 'add terms in tags'
   - 'administer nodes'
-  - 'administer users'
   - 'create article content'
   - 'create crowdfunding content'
   - 'create news content'
