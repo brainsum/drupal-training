@@ -60,12 +60,3 @@ services:
       - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
       - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
 
-  traefik:
-    image: traefik:v2.2.1
-    container_name: "${PROJECT_NAME}_traefik"
-    command: --api.insecure=true --providers.docker
-    ports:
-      - '8000:80'
-    #    - '8080:8080' # Dashboard
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
