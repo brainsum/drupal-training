@@ -1,0 +1,10 @@
+uuid: 03378bf3-67b4-469f-bf64-08aacda81eba
+langcode: en
+status: true
+dependencies: {  }
+id: crowdfunding
+label: Crowdfunding
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

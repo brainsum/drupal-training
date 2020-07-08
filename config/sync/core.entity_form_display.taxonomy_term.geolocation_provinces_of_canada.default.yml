@@ -1,0 +1,49 @@
+uuid: 04daac40-3d29-420b-b226-4771ba763247
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.geolocation_provinces_of_canada.field_geometry_data_geometry
+    - taxonomy.vocabulary.geolocation_provinces_of_canada
+  enforced:
+    module:
+      - geolocation_geometry_open_canada_provinces
+  module:
+    - geolocation_geometry
+    - path
+_core:
+  default_config_hash: rjCKTHKu34xItb1stQhBla5eADS7KYf7v7-1oAtLdmQ
+id: taxonomy_term.geolocation_provinces_of_canada.default
+targetEntityType: taxonomy_term
+bundle: geolocation_provinces_of_canada
+mode: default
+content:
+  field_geometry_data_geometry:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_geometry_wkt
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true

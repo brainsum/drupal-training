@@ -1,0 +1,27 @@
+uuid: 227fc835-5a98-4363-911c-7d6343de0d14
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - corporate_blue
+_core:
+  default_config_hash: GwH03cc4pQmZGmUax2HsFdapAmWEADdz-p9SL7-JIUA
+id: corporate_blue_account_menu
+theme: corporate_blue
+region: user_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

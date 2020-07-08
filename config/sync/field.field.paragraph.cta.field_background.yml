@@ -1,0 +1,23 @@
+uuid: 16a75c5d-4bcf-4882-818c-fb11b574ed70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.cta
+id: paragraph.cta.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: cta
+label: Background
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

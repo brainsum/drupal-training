@@ -1,0 +1,45 @@
+uuid: 3260d7ba-d2b5-4e6c-bcc1-288c69c166c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.collaborate_with_us.field_contact_form
+    - field.field.paragraph.collaborate_with_us.field_cta
+    - field.field.paragraph.collaborate_with_us.field_description
+    - paragraphs.paragraphs_type.collaborate_with_us
+  module:
+    - link
+    - text
+id: paragraph.collaborate_with_us.default
+targetEntityType: paragraph
+bundle: collaborate_with_us
+mode: default
+content:
+  field_contact_form:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_cta:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

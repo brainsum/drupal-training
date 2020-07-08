@@ -1,0 +1,14 @@
+uuid: 8121e767-64a1-4e8a-9c17-a7f3b97ac612
+name: IFRC
+mail: test@test.test
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /news
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

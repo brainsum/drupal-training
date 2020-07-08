@@ -1,0 +1,12 @@
+uuid: 236f1a28-eea4-4e4d-9d5f-a3ebcc4eff93
+langcode: en
+status: true
+dependencies: {  }
+id: chimp
+label: chimp
+recipients:
+  - aherczeg@brainsum.comd360b49589a606f78a2dc2d4a514fa1b-us10
+reply: ''
+weight: 0
+message: ''
+redirect: ''

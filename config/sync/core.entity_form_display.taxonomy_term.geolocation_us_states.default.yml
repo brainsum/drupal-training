@@ -1,0 +1,49 @@
+uuid: cfb6a7a4-02a9-4b8c-97b0-7a6230da3023
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.geolocation_us_states.field_geometry_data_geometry
+    - taxonomy.vocabulary.geolocation_us_states
+  enforced:
+    module:
+      - geolocation_geometry_natural_earth_us_states
+  module:
+    - geolocation_geometry
+    - path
+_core:
+  default_config_hash: '-hugYKgfB2sK4L2-jAdtT-IyRyy4MgKO9MJstXReKKI'
+id: taxonomy_term.geolocation_us_states.default
+targetEntityType: taxonomy_term
+bundle: geolocation_us_states
+mode: default
+content:
+  field_geometry_data_geometry:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_geometry_wkt
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true

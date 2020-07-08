@@ -1,0 +1,26 @@
+uuid: 81973694-b363-4b75-ae5a-19b81f767bd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_related_content
+    - paragraphs.paragraphs_type.related_content
+id: paragraph.related_content.field_related_content
+field_name: field_related_content
+entity_type: paragraph
+bundle: related_content
+label: 'Related content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

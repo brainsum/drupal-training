@@ -1,0 +1,13 @@
+uuid: cd0891af-396f-4fed-bcf1-1c591b6ab357
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_geometry_open_canada_provinces
+_core:
+  default_config_hash: GOzsBbi1SVQAXmgFD8QsIKtlv-QM_0ZLdPBqFNOYc8A
+name: 'Provinces of Canada'
+vid: geolocation_provinces_of_canada
+description: ''
+weight: 0

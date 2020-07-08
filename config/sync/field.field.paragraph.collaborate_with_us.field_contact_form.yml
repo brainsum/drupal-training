@@ -1,0 +1,26 @@
+uuid: 657d2751-3a6b-4218-9378-14a1f86624b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.collaborate_with_us
+    - field.storage.paragraph.field_contact_form
+    - paragraphs.paragraphs_type.collaborate_with_us
+id: paragraph.collaborate_with_us.field_contact_form
+field_name: field_contact_form
+entity_type: paragraph
+bundle: collaborate_with_us
+label: 'Contact form'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 90c9e4f9-bdf3-48ba-ab52-72a078ef2d78
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

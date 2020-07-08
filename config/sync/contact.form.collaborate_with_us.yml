@@ -1,0 +1,12 @@
+uuid: 90c9e4f9-bdf3-48ba-ab52-72a078ef2d78
+langcode: en
+status: true
+dependencies: {  }
+id: collaborate_with_us
+label: 'Collaborate with us'
+recipients:
+  - test@test.test
+reply: ''
+weight: 0
+message: ''
+redirect: ''

@@ -1,0 +1,12 @@
+uuid: fee57925-ebd8-4b5e-8c3d-0f12320cb27c
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us'
+recipients:
+  - test@test.test
+reply: ''
+weight: 0
+message: ''
+redirect: ''

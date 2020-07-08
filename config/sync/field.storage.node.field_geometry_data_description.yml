@@ -1,0 +1,24 @@
+uuid: 1ed9eb9d-bfaf-4a94-abc7-adb81668504d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_geometry_data
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: jDrglbldhXC5BV185861r5MCQANTEwjTGnOGm4blho0
+id: node.field_geometry_data_description
+field_name: field_geometry_data_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

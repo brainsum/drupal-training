@@ -1,0 +1,21 @@
+uuid: 774bd6de-d749-44fe-9ad1-f557decacabd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_duration
+    - paragraphs.paragraphs_type.project_specification
+  module:
+    - text
+id: paragraph.project_specification.field_duration
+field_name: field_duration
+entity_type: paragraph
+bundle: project_specification
+label: Duration
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,10 @@
+uuid: 6d28b3de-9b80-44a8-bd5e-42c5cf2c8034
+langcode: en
+status: true
+dependencies: {  }
+id: collaborate_with_us
+label: 'Collaborate with us'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

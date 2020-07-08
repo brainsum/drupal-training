@@ -1,0 +1,69 @@
+uuid: 9f0dbf33-12c5-44cd-b1f0-39fafd91b507
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.publication
+    - paragraphs.paragraphs_type.column
+    - paragraphs.paragraphs_type.partner
+  module:
+    - entity_reference_revisions
+id: node.publication.field_content
+field_name: field_content
+entity_type: node
+bundle: publication
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      column: column
+      partner: partner
+    target_bundles_drag_drop:
+      3_columns:
+        weight: 14
+        enabled: false
+      collaborate_with_us:
+        weight: 15
+        enabled: false
+      column:
+        enabled: true
+        weight: 16
+      crowdfunding:
+        weight: 17
+        enabled: false
+      cta:
+        weight: 18
+        enabled: false
+      files:
+        weight: 19
+        enabled: false
+      hero:
+        weight: 20
+        enabled: false
+      partner:
+        enabled: true
+        weight: 21
+      partners:
+        weight: 22
+        enabled: false
+      project_specification:
+        weight: 23
+        enabled: false
+      related_content:
+        weight: 24
+        enabled: false
+      simple_text:
+        weight: 25
+        enabled: false
+      text_and_image:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

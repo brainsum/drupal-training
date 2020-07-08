@@ -1,0 +1,21 @@
+uuid: d406aaa1-d0dd-4c9e-ab46-31612d0249d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.collaborate_with_us
+  module:
+    - text
+id: paragraph.collaborate_with_us.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: collaborate_with_us
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
