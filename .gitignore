@@ -12,9 +12,6 @@
 /web/libraries/
 
 # Ignore sensitive information
-/web/sites/*/settings.php
-/web/sites/*/settings.local.php
-/web/sites/*/services.local.yml
 /tool/user_config.inc.php
 
 # Ignore Drupal's file directory
@@ -41,10 +38,12 @@
 .DS_Store
 
 # Ignore local Docker override
-docker-compose.override.yml
+docker-compose.local.yml
 
 /web/sites/*.dd/
 /web/themes/custom/fdi_theme/node_modules
 /web/themes/custom/fdi_theme/vendors
 /web/themes/custom/fdi_theme/css/*.map
 
+drush/drush.yml
+settings/settings.local.php
