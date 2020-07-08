@@ -114,6 +114,7 @@ permissions:
   - 'translate page node'
   - 'translate publication node'
   - 'update content translations'
+  - 'use text format full_html'
   - 'view all revisions'
   - 'view article revisions'
   - 'view crowdfunding revisions'
