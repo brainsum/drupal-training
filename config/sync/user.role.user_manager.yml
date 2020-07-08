@@ -1,0 +1,11 @@
+uuid: 2374cfbc-e40b-43ee-91cf-2dcb81638bd4
+langcode: en
+status: true
+dependencies: {  }
+id: user_manager
+label: 'User manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'administer users'
