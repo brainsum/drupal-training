@@ -1,0 +1,11 @@
+uuid: ceb305b6-dd7b-4832-bb76-0d2cac82a387
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.chimp
+id: contact_message.chimp
+target_entity_type_id: contact_message
+target_bundle: chimp
+default_langcode: site_default
+language_alterable: false

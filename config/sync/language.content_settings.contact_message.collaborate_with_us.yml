@@ -1,0 +1,11 @@
+uuid: 40f929ad-3eac-480c-a03f-6519cb530b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.collaborate_with_us
+id: contact_message.collaborate_with_us
+target_entity_type_id: contact_message
+target_bundle: collaborate_with_us
+default_langcode: site_default
+language_alterable: false

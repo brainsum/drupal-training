@@ -1,0 +1,18 @@
+uuid: 9cbe2263-d6fd-469b-8629-9106c6cc5f9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_geometry_countries
+id: taxonomy_term.geolocation_geometry_countries.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: geolocation_geometry_countries
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

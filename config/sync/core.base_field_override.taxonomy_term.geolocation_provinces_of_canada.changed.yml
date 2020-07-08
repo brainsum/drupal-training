@@ -1,0 +1,18 @@
+uuid: 43fe3da5-d8ff-4470-ac1a-c13575ddda54
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_provinces_of_canada
+id: taxonomy_term.geolocation_provinces_of_canada.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: geolocation_provinces_of_canada
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

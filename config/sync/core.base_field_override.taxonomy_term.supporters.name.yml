@@ -1,0 +1,18 @@
+uuid: 662889d2-3533-48bc-886c-9876167074a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.supporters
+id: taxonomy_term.supporters.name
+field_name: name
+entity_type: taxonomy_term
+bundle: supporters
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

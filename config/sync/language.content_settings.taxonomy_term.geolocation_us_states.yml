@@ -1,0 +1,18 @@
+uuid: 47b44c03-dafa-48aa-bb32-d82e365638d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_us_states
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.geolocation_us_states
+target_entity_type_id: taxonomy_term
+target_bundle: geolocation_us_states
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 23af4c3f-511a-400d-94a4-1964534b6504
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.germany_zip_codes
+id: taxonomy_term.germany_zip_codes.name
+field_name: name
+entity_type: taxonomy_term
+bundle: germany_zip_codes
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

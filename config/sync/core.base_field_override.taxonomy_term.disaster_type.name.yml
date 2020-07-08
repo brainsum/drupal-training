@@ -1,0 +1,18 @@
+uuid: cfd9fd5f-8ef5-4e16-9161-f9e2e2bfb2e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.disaster_type
+id: taxonomy_term.disaster_type.name
+field_name: name
+entity_type: taxonomy_term
+bundle: disaster_type
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

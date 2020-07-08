@@ -1,0 +1,20 @@
+uuid: 6e6b2f03-c3d1-4f55-be43-ee6e34d1a0ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.shelter_type
+  module:
+    - path
+id: taxonomy_term.shelter_type.path
+field_name: path
+entity_type: taxonomy_term
+bundle: shelter_type
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

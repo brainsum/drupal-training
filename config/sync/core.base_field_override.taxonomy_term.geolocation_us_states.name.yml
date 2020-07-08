@@ -1,0 +1,18 @@
+uuid: be9b813d-b07a-47c9-843f-6a5371148a34
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_us_states
+id: taxonomy_term.geolocation_us_states.name
+field_name: name
+entity_type: taxonomy_term
+bundle: geolocation_us_states
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

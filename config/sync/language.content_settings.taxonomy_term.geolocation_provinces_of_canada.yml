@@ -1,0 +1,18 @@
+uuid: eddd3851-324d-49b6-9e82-2aa547f852a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_provinces_of_canada
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.geolocation_provinces_of_canada
+target_entity_type_id: taxonomy_term
+target_bundle: geolocation_provinces_of_canada
+default_langcode: site_default
+language_alterable: false

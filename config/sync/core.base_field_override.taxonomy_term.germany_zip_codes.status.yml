@@ -1,0 +1,22 @@
+uuid: 8da14e3e-cd76-42da-8754-e65e3fd4fc93
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.germany_zip_codes
+id: taxonomy_term.germany_zip_codes.status
+field_name: status
+entity_type: taxonomy_term
+bundle: germany_zip_codes
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

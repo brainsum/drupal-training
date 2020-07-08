@@ -1,0 +1,20 @@
+uuid: 06cebd03-1b4f-4efd-bc27-b25c6be1bea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.climate_zone
+  module:
+    - path
+id: taxonomy_term.climate_zone.path
+field_name: path
+entity_type: taxonomy_term
+bundle: climate_zone
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

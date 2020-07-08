@@ -1,0 +1,20 @@
+uuid: 6177b40c-1c7c-47c7-9632-e2082567c658
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_geometry_countries
+  module:
+    - text
+id: taxonomy_term.geolocation_geometry_countries.description
+field_name: description
+entity_type: taxonomy_term
+bundle: geolocation_geometry_countries
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
