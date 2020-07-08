@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e92939f67ec3a66990a47dbb6da9077",
+    "content-hash": "2f333dbd85b17fd7a4fbb5b485849552",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -166,6 +166,15 @@
             ],
             "description": "Drupal code generator",
             "time": "2020-04-16T06:45:06+00:00"
+        },
+        {
+            "name": "ckeditor-plugin/fakeobjects",
+            "version": "4.14.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.1.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "commerceguys/addressing",
