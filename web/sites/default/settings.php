@@ -5,6 +5,12 @@
  * Site settings set up for k8s deployment.
  */
 
+use Symfony\Component\Dotenv\Dotenv;
+
+if (file_exists(__DIR__ . '/../../../.env')) {
+  (new Dotenv())->load(__DIR__ . '/../../../.env');
+}
+
 // Hash salt.
 $settings['hash_salt'] = getenv('DRUPAL_HASH_SALT');
 
