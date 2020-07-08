@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.news.body
     - field.field.node.news.field_tags
+    - field.field.node.news.field_thumbnail
     - node.type.news
   module:
     - text
@@ -31,4 +32,5 @@ content:
 hidden:
   addtoany: true
   field_tags: true
+  field_thumbnail: true
   langcode: true
