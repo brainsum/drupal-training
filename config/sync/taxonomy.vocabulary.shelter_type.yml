@@ -1,8 +1,0 @@
-uuid: 1a2e5911-705c-458f-bda6-c54efe2575bd
-langcode: en
-status: true
-dependencies: {  }
-name: 'Shelter type'
-vid: shelter_type
-description: ''
-weight: 0

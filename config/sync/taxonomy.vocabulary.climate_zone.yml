@@ -1,8 +1,0 @@
-uuid: ac027c79-4c5f-40dd-bbcf-6eebe5dab75a
-langcode: en
-status: true
-dependencies: {  }
-name: 'Climate zone'
-vid: climate_zone
-description: ''
-weight: 0
