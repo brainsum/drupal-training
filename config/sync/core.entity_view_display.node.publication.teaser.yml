@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.publication.body
-    - field.field.node.publication.field_content
     - field.field.node.publication.field_file
     - field.field.node.publication.field_isbn_number
     - node.type.publication
@@ -32,6 +31,5 @@ content:
     region: content
 hidden:
   addtoany: true
-  field_content: true
   field_file: true
   field_isbn_number: true

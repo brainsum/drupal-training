@@ -4,13 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.publication.body
-    - field.field.node.publication.field_content
     - field.field.node.publication.field_file
     - field.field.node.publication.field_isbn_number
     - node.type.publication
   module:
     - file
-    - paragraphs
     - path
     - text
 id: node.publication.default
@@ -34,24 +32,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_content:
-    weight: 10
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-      closed_mode: summary
-      autocollapse: none
-      closed_mode_threshold: 0
-      features:
-        collapse_edit_all: collapse_edit_all
-        duplicate: duplicate
-    third_party_settings: {  }
-    type: paragraphs
-    region: content
   field_file:
     weight: 8
     settings:
