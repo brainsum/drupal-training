@@ -1,0 +1,14 @@
+uuid: db5b343e-4128-4106-beaf-e284468e4d66
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
