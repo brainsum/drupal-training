@@ -16,6 +16,7 @@ permissions:
   - 'access user contact forms'
   - 'access user profiles'
   - 'administer nodes'
+  - 'administer permissions'
   - 'administer users'
   - 'create content translations'
   - 'create news content'
