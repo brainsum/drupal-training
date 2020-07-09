@@ -1,0 +1,10 @@
+uuid: c8076959-adab-4cff-a632-5f9023bce32b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true
