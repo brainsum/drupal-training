@@ -51,6 +51,8 @@ module:
   mailchimp: 0
   mailchimp_lists: 0
   mailchimp_signup: 0
+  media: 0
+  media_library: 0
   menu_item_role_access: 0
   menu_ui: 0
   node: 0
