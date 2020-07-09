@@ -1,6 +1,6 @@
-name: Cusztomization
-description: Custom features for Drupal Training
-package: Drupal training
+name: 'Customization'
+description: 'Custom features for Drupal Training'
+package: 'Drupal training'
 
 type: module
 core_version_requirement: ^8.9 || ^9.0
