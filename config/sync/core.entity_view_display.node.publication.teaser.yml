@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.publication.field_file
     - field.field.node.publication.field_image
     - field.field.node.publication.field_isbn_number
+    - field.field.node.publication.field_media
     - node.type.publication
   module:
     - text
@@ -35,4 +36,5 @@ hidden:
   field_file: true
   field_image: true
   field_isbn_number: true
+  field_media: true
   langcode: true

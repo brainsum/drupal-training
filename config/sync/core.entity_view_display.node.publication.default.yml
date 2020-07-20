@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.publication.field_file
     - field.field.node.publication.field_image
     - field.field.node.publication.field_isbn_number
+    - field.field.node.publication.field_media
     - node.type.publication
   module:
     - file
@@ -48,6 +49,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_media:
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
     region: content
   links:
     weight: 0

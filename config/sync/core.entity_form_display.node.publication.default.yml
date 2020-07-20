@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.publication.field_file
     - field.field.node.publication.field_image
     - field.field.node.publication.field_isbn_number
+    - field.field.node.publication.field_media
     - image.style.thumbnail
     - node.type.publication
   module:
     - file
     - image
+    - media_library
     - path
     - text
 id: node.publication.default
@@ -57,6 +59,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
+    region: content
+  field_media:
+    weight: 51
+    settings:
+      media_types:
+        - image
+        - video
+        - remote_video
+        - audio
+        - document
+    third_party_settings: {  }
+    type: media_library_widget
     region: content
   langcode:
     type: language_select
@@ -114,5 +128,10 @@ content:
       placeholder: ''
       match_limit: 10
     region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }
